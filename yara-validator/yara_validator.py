@@ -389,7 +389,7 @@ class YaraValidator:
         self.warning_functions = [
             self.warning_author_no_report_check,
             self.warning_author_no_hash_check,
-            self.warning_actor_no_mitre_group,
+            #self.warning_actor_no_mitre_group,
             self.warning_no_category_type,
             self.warning_no_reference_specified,
             self.warning_common_metadata_errors
